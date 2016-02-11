@@ -16,7 +16,9 @@ public class RockPaperScissors {
 		gameStart(name, maxRounds, winCount, round);
 		//declare variables and move to the game method
 	}
-	
+
+
+//-------CREATE GAME CLASS HERE WITH THIS METHOD---------    
 	public static void gameStart(String name, double maxRounds, int winCount, int round) {
 		
 		Scanner user = new Scanner (System.in);
@@ -28,7 +30,7 @@ public class RockPaperScissors {
 			//had to put something in throwStr for it to work with the loop
 			System.out.println();
 			System.out.print("Enter your throw (0=Rock, 1=Paper, 2=Scissors): ");
-			int throwNum = user.nextInt();
+			int throwNum = user.nextInt();  //******THIS SHOULD BE A METHOD IN THE "PLAYER" CLASS******
 			if (throwNum == 0) {
 				throwStr = "ROCK";
 			}else
