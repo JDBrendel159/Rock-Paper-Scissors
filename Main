@@ -12,12 +12,15 @@ public class main {
 		double roundMax = user.nextInt();
 		int round = 1;
 		double winCount = 0;
+		//initialize some variables and create the player and cpu
 		
 		do {
 			player.makeThrow();
 			cpu.makeThrow();
+			//make the throws
 			System.out.println(player.getName() + " throws " + player.getThrowStr());
 			System.out.println("The Computer throws " + cpu.getThrowStr());
+			//print out throws
 			if ((player.getThrowNum() == 0 && cpu.getThrowNum() == 2) || (player.getThrowNum() == 1 && cpu.getThrowNum() == 0) || (player.getThrowNum() == 2 && cpu.getThrowNum() == 1)) {
 				System.out.println(player.getName() + " wins!");
 				winCount++;
@@ -30,6 +33,7 @@ public class main {
 				System.out.println("The Computer wins!");
 				round++;
 			}
+			//compare the throws and output accordingly
 		}while(round <= roundMax);
 		
 		if (winCount == roundMax/2) {
@@ -44,5 +48,6 @@ public class main {
 			System.out.println();
 			System.out.println("The Computer is the winner!");
 			}
+			//print out who won
 	}
 }
