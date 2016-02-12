@@ -1,1 +1,32 @@
+import java.util.Random;
 
+public class gameVars {
+	
+	String throwStr;
+	int throwNum;
+
+	public void makeThrow() {
+		
+		Random rand = new Random();
+		int throwNum = rand.nextInt(3);
+		
+		if (throwNum == 0) {
+			throwStr = "ROCK";
+		}else
+		if (throwNum == 1) {
+			throwStr = "PAPER";
+		}else
+		if (throwNum == 2) {
+			throwStr = "SCISSORS";
+		}
+	}
+	
+	public String getThrowStr() {
+		return throwStr;
+	}
+	
+	public int getThrowNum() {
+		return throwNum;
+	}
+
+}
