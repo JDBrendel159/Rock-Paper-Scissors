@@ -8,7 +8,8 @@ public class gameVars {
 	public void makeThrow() {
 		
 		Random rand = new Random();
-		int throwNum = rand.nextInt(3);
+		throwNum = rand.nextInt(3);
+		//generate the cpu's throw
 		
 		if (throwNum == 0) {
 			throwStr = "ROCK";
@@ -19,14 +20,17 @@ public class gameVars {
 		if (throwNum == 2) {
 			throwStr = "SCISSORS";
 		}
+		//put cpu throw into a string
 	}
 	
 	public String getThrowStr() {
 		return throwStr;
+		//grab the cpu's throw string
 	}
 	
 	public int getThrowNum() {
 		return throwNum;
+		//grab the scpu's throw number
 	}
 
 }
