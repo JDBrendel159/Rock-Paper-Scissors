@@ -4,7 +4,7 @@ Welcome to my simple Rock, Paper, & Scissors game!
 To play a game against the computer (currently the only supported game mode), use the
 command "javac .java" to compile the files, and then type "java RockPaperScissors".
 
-#Rules
+# Rules
 
 Rock beats scissors, scissors beats paper, and paper beats rock.  Nothing special here.
 
