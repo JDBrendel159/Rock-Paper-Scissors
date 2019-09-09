@@ -1,6 +1,8 @@
 # Rock-Paper-Scissors
-Welcome to my simple Rock, Paper, & Scissors game!
+Welcome to my simple Rock, Paper, & Scissors game
+
 The repository page can be found <a href="https://github.com/JDBrendel159/Rock-Paper-Scissors">here</a>
+
 The Github webpage can be found <a href="http://jdbrendel159.github.io/Rock-Paper-Scissors/">here</a>
 
 # Rules
