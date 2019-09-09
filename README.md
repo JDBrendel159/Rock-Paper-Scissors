@@ -1,5 +1,6 @@
 # Rock-Paper-Scissors
 Welcome to my simple Rock, Paper, & Scissors game!
+The repository page can be found <a href="https://github.com/JDBrendel159/Rock-Paper-Scissors">here</a>
 
 # Rules
 Rock beats scissors, scissors beats paper, and paper beats rock.  Nothing special here.
@@ -10,7 +11,7 @@ The winner of the game is the player with the most rounds won at the end.
 It is possible to tie the game if an even amount of rounds is input. 
 
 # Download/Installation
-The game can be downloaded as a ZIP by navigating to the github page <a href="https://github.com/JDBrendel159/Rock-Paper-Scissors">here</a>
+The game can be downloaded as a ZIP using <a href="https://github.com/JDBrendel159/Rock-Paper-Scissors/archive/master.zip">this link</a>
 
 From the Github page, click "Clone or download" and select "Download ZIP"
 
