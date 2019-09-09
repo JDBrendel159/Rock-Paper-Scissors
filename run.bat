@@ -1,1 +1,1 @@
-java RockPaperSissors
+java RockPaperScissors
