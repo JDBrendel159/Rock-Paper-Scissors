@@ -9,14 +9,14 @@ The winner of the game is the player with the most rounds won at the end.
 
 It is possible to tie the game if an even amount of rounds is input. 
 
-#Download/Installation
+# Download/Installation
 The game can be downloaded as a ZIP by navigating to the github page at https://github.com/JDBrendel159/Rock-Paper-Scissors
 
 From the Github page, click "Clone or download" and select "Download ZIP"
 
 Extract the ZIP to a folder of your choice, and open "run.bat" to begin the game.
 
-#Playing the Game
+# Playing the Game
 Currently the game can only be played against the computer, which throws out a random move every turn.
 
 When the game opens, you will be prompted to enter your name, do so and press ENTER.
