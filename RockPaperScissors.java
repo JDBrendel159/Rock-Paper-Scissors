@@ -8,18 +8,23 @@ public class RockPaperScissors {
 		//for user input
 		
 		System.out.print("Enter player name: ");
-		String name = user.next();
+		String name = user.nextLine();
 		System.out.print("How many rounds would you like to play?: ");
-		double maxRounds = user.nextDouble();
-		int winCount = 0;
+		int maxRounds = user.nextInt();
+        if (maxRounds % 2 == 0){
+            maxRounds--;
+            System.out.println("Even amount of rounds entered. Playing " + maxRounds + " rounds instead.");
+        }
+		int pWinCount = 0;
+        int cWinCount = 0;
 		int round = 0;
-		gameStart(name, maxRounds, winCount, round);
+		gameStart(name, maxRounds, pWinCount, cWinCount, round);
 		//declare variables and move to the game method
 	}
 
 
 //-------CREATE GAME CLASS HERE WITH THIS METHOD---------    
-	public static void gameStart(String name, double maxRounds, int winCount, int round) {
+	public static void gameStart(String name, int maxRounds, int pWinCount, int cWinCount, int round) {
 		
 		Scanner user = new Scanner (System.in);
 		Random rand = new Random();
@@ -45,7 +50,7 @@ public class RockPaperScissors {
 				System.out.println();
 				System.out.println("Error: Please try again");
 				System.out.println();
-				gameStart(name, maxRounds, winCount, round);
+				gameStart(name, maxRounds, pWinCount, cWinCount, round);
 				break;
 				//goes to the game method again if you input an unusable integer
 			}
@@ -64,7 +69,7 @@ public class RockPaperScissors {
 			System.out.println("The Computer throws " + throwStr);
 			if ((throwNum == 0 && cpuThrow == 2) || (throwNum == 1 && cpuThrow == 0) || (throwNum == 2 && cpuThrow == 1)) {
 				System.out.println(name + " wins!");
-				winCount++;
+				pWinCount++;
 				round++;
 			}else
 			if (throwNum == cpuThrow) {
@@ -72,26 +77,15 @@ public class RockPaperScissors {
 			}else
 			if ((throwNum == 2 && cpuThrow == 0) || (throwNum == 0 && cpuThrow == 1) || (throwNum == 1 && cpuThrow == 2)) {
 				System.out.println("The Computer wins!");
-				round++;
+				cWinCount++;
+                round++;
 			}
-			//these if statements determine who wins or if it ties
-		}while(round < maxRounds);
-		//ends after the selected amount of rounds (ties don't count toward round count)
-		if (round == maxRounds) {
-			if (winCount == maxRounds/2) {
-				System.out.println();
-				System.out.println("It's a tie!");
-				}else
-			if (winCount > maxRounds/2) {
-				System.out.println();
-				System.out.println(name + " is the winner!");
-				}else
-				if (winCount < maxRounds/2) {
-				System.out.println();
-				System.out.println("The Computer is the winner!");
-				//prints out who won, or if it was a tie
-			}
-		}
-	}
+		}while(cWinCount * 2 < maxRounds && pWinCount * 2 < maxRounds);
+            if (pWinCount > cWinCount) {
+                System.out.print("\n" + name + " is the winner!");
+            }else{
+                System.out.print("\nThe Computer is the winner!");
+            }
 
+	}
 }
