@@ -10,7 +10,7 @@ The winner of the game is the player with the most rounds won at the end.
 It is possible to tie the game if an even amount of rounds is input. 
 
 # Download/Installation
-The game can be downloaded as a ZIP by navigating to the github page at https://github.com/JDBrendel159/Rock-Paper-Scissors
+The game can be downloaded as a ZIP by navigating to the github page <a href="https://github.com/JDBrendel159/Rock-Paper-Scissors">here</a>
 
 From the Github page, click "Clone or download" and select "Download ZIP"
 
