@@ -1,8 +1,8 @@
 # Rock-Paper-Scissors
 Welcome to my simple Rock, Paper, & Scissors game!
 
-To play a game against the computer (currently the only supported game mode), use the
-command "javac .java" to compile the files, and then type "java RockPaperScissors".
+To play a game against the computer (currently the only supported game mode), open the file
+"run.bat".  This will open up a terminal window, which will display further instructions.
 
 # Rules
 
