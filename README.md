@@ -16,8 +16,6 @@ It is possible to tie the game if an even amount of rounds is input.
 # Download/Installation
 The game can be downloaded as a ZIP using <a href="https://github.com/JDBrendel159/Rock-Paper-Scissors/archive/master.zip">this link</a>
 
-From the Github page, click "Clone or download" and select "Download ZIP"
-
 Extract the ZIP to a folder of your choice, and open "run.bat" to begin the game.
 
 # Playing the Game
