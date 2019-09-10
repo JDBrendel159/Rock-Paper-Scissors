@@ -10,10 +10,11 @@ The Github webpage can be found <a href="http://jdbrendel159.github.io/Rock-Pape
 # Rules
 Rock beats scissors, scissors beats paper, and paper beats rock.  Nothing special here.
 
-The game continues until the amount of rounds input has been played (excluding ties).
-The winner of the game is the player with the most rounds won at the end.
+The game cannot be played with an even amount of rounds.
 
-It is possible to tie the game if an even amount of rounds is input. 
+The game continues until one player wins a "best of" for the amount of rounds entered (excluding ties).
+The winner of the game is displayed once the game is finished.
+
 # Download/Installation
 The game can be downloaded as a ZIP using <a href="https://github.com/JDBrendel159/Rock-Paper-Scissors/archive/master.zip">this link.</a>
 
