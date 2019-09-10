@@ -18,6 +18,10 @@ public class RockPaperScissors {
             maxRounds--;
             System.out.println("Even amount of rounds entered. Playing " + maxRounds + " rounds instead.");
         }
+        if (maxRounds < 1) {
+            maxRounds = 3;
+            System.out.print("Round number cannot be below 1.  Playing 3 rounds instead.");
+        }
 	int pWinCount = 0;
         int cWinCount = 0;
 	int round = 0;
@@ -69,11 +73,13 @@ public class RockPaperScissors {
 				cWinCount++;
                 		round++;
 			}
+            System.out.print("\n" + name + ": " + pWinCount + "\n");
+            System.out.print("Computer: " + cWinCount + "\n\n");
 		}while(cWinCount * 2 < maxRounds && pWinCount * 2 < maxRounds);
             if (pWinCount > cWinCount) {
                 System.out.print("\n" + name + " is the winner!\n\n");
             }else{
-                System.out.print("\nThe Computer is the winner!\n\n");
+                System.out.print("The Computer is the winner!\n\n");
             }
             initiate();
 
