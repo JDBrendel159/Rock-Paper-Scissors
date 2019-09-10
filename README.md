@@ -35,4 +35,4 @@ You can exit the game by pressing CTRL-C and then Y.
 # Troubleshooting
 Extracting the ZIP file requires either <a href="https://www.rarlab.com/download.htm">WinRAR</a> or <a href="https://www.7-zip.org">7Zip.</a>
 
-If the batch file fails to execute, you may need to update your java installation.  Java downloads can be found <a href="https://www.java.com/en/download">here.</a>
+If the batch file fails to execute, you may need to update your java installation.  The most recent Java version can be found <a href="https://www.java.com/en/download">here.</a>
