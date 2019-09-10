@@ -4,7 +4,8 @@ public class RockPaperScissors {
 
 	public static void main(String[] args) {
 		
-		Scanner user = new Scanner (System.in);
+		initiate();
+        Scanner user = new Scanner (System.in);
 		//for user input
 		
 		System.out.print("Enter player name: ");
@@ -19,23 +20,23 @@ public class RockPaperScissors {
         int cWinCount = 0;
 		int round = 0;
 		gameStart(name, maxRounds, pWinCount, cWinCount, round);
-		//declare variables and move to the game method
 	}
 
+    public static void initiate() {
 
-//-------CREATE GAME CLASS HERE WITH THIS METHOD---------    
+    }
+
+
 	public static void gameStart(String name, int maxRounds, int pWinCount, int cWinCount, int round) {
 		
 		Scanner user = new Scanner (System.in);
 		Random rand = new Random();
-		//for random int and user input
 		
 		do{
 			String throwStr = "";
-			//had to put something in throwStr for it to work with the loop
 			System.out.println();
 			System.out.print("Enter your throw (0=Rock, 1=Paper, 2=Scissors): ");
-			int throwNum = user.nextInt();  //******THIS SHOULD BE A METHOD IN THE "PLAYER" CLASS******
+            int throwNum = user.nextInt();
 			if (throwNum == 0) {
 				throwStr = "ROCK";
 			}else
@@ -45,14 +46,12 @@ public class RockPaperScissors {
 			if (throwNum == 2) {
 				throwStr = "SCISSORS";
 			}else
-			//puts the throw number into a string
 			if (throwNum != 0 && throwNum != 1 && throwNum != 2) {
 				System.out.println();
 				System.out.println("Error: Please try again");
 				System.out.println();
 				gameStart(name, maxRounds, pWinCount, cWinCount, round);
 				break;
-				//goes to the game method again if you input an unusable integer
 			}
 			System.out.println(name + " throws " + throwStr);
 			int cpuThrow = rand.nextInt(3);
@@ -65,7 +64,6 @@ public class RockPaperScissors {
 			if (cpuThrow == 2) {
 				throwStr = "SCISSORS";
 			}
-			//puts throw number into a string
 			System.out.println("The Computer throws " + throwStr);
 			if ((throwNum == 0 && cpuThrow == 2) || (throwNum == 1 && cpuThrow == 0) || (throwNum == 2 && cpuThrow == 1)) {
 				System.out.println(name + " wins!");
@@ -82,10 +80,11 @@ public class RockPaperScissors {
 			}
 		}while(cWinCount * 2 < maxRounds && pWinCount * 2 < maxRounds);
             if (pWinCount > cWinCount) {
-                System.out.print("\n" + name + " is the winner!");
+                System.out.print("\n" + name + " is the winner!\n\n");
             }else{
-                System.out.print("\nThe Computer is the winner!");
+                System.out.print("\nThe Computer is the winner!\n\n");
             }
+            initiate();
 
 	}
 }
