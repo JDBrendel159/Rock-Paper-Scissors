@@ -19,10 +19,6 @@ The game can be downloaded as a ZIP using <a href="https://github.com/JDBrendel1
 
 Extract the ZIP to a folder of your choice, and open "run.bat" to begin the game.
 
-<a href="https://www.rarlab.com/download.htm">WinRAR</a> or <a href="https://www.7-zip.org">7Zip</a> are required to extract the archive.
-
-A Java Runtime Environment is required to actually execute the java file.  Java downloads can be found <a href="https://www.java.com/en/download">here.</a>
-
 # Playing the Game
 Currently the game can only be played against the computer, which throws out a random move every turn.
 
