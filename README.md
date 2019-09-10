@@ -27,3 +27,5 @@ It will then prompt you to enter an amount of rounds, this can be any number.
 Type your desired amount of rounds (in digits) and press ENTER.
 
 Throws are performed by typing in the sign's corresponding digit and pressing ENTER.
+
+You can exit the game by pressing CTRL-C and then Y.
