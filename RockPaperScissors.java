@@ -75,6 +75,11 @@ public class RockPaperScissors {
             }else{
                 System.out.print("\nThe Computer is the winner!\n\n");
             }
+            try{
+                Thread.sleep(1000);
+            }catch(Exception e){
+                System.out.println(e);
+            }
             initiate();
 
 	}
