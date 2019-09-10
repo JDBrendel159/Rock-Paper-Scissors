@@ -1,11 +1,11 @@
 # Rock-Paper-Scissors
 Welcome to my simple Rock, Paper, & Scissors game
 
-This readme contains some basic information about the RPS program.  More documentation can be found <a href="https://jdbrendel159.github.io/RPSDocumentation/">here</a>
+This readme contains some basic information about the RPS program.  More documentation can be found <a href="https://jdbrendel159.github.io/RPSDocumentation/">here.</a>
 
-The repository page can be found <a href="https://github.com/JDBrendel159/Rock-Paper-Scissors">here</a>
+The repository page can be found <a href="https://github.com/JDBrendel159/Rock-Paper-Scissors">here.</a>
 
-The Github webpage can be found <a href="http://jdbrendel159.github.io/Rock-Paper-Scissors/">here</a>
+The Github webpage can be found <a href="http://jdbrendel159.github.io/Rock-Paper-Scissors/">here.</a>
 
 # Rules
 Rock beats scissors, scissors beats paper, and paper beats rock.  Nothing special here.
@@ -16,7 +16,7 @@ The winner of the game is the player with the most rounds won at the end.
 It is possible to tie the game if an even amount of rounds is input. 
 
 # Download/Installation
-The game can be downloaded as a ZIP using <a href="https://github.com/JDBrendel159/Rock-Paper-Scissors/archive/master.zip">this link</a>
+The game can be downloaded as a ZIP using <a href="https://github.com/JDBrendel159/Rock-Paper-Scissors/archive/master.zip">this link.</a>
 
 Extract the ZIP to a folder of your choice, and open "run.bat" to begin the game.
 
