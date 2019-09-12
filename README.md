@@ -8,10 +8,10 @@
 7. [Troubleshooting](#trouble)
 8. [Contributing](#con)
 9. [Support](#support)
-10. [License](#license)
+10. [License](#license)  
   
-  
-  
+    
+    
 # Rock-Paper-Scissors <a name="intro"></a>  
 Welcome to my simple Rock, Paper, & Scissors game
 
