@@ -1,9 +1,10 @@
 # Table of Contents
 1. [Introduction](#intro)
-<br>
-<br>
-#intro
-# Rock-Paper-Scissors
+  
+  
+  
+
+# Rock-Paper-Scissors <a name="intro"></a>
 Welcome to my simple Rock, Paper, & Scissors game
 
 The repository page can be found <a href="https://github.com/JDBrendel159/Rock-Paper-Scissors">here.</a>
