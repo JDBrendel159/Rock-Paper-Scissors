@@ -2,13 +2,13 @@
 1. [Introduction](#intro)
 2. [Features](#features)
 3. [Installation](#install)  
-    1. [Usage](#usage)
-4. [Rules](#rules)
-5. [Notes](#notes)
-6. [Troubleshooting](#trouble)
-7. [Contributing](#con)
-8. [Support](#support)
-9. [License](#license)
+4. [Usage](#usage)
+5. [Rules](#rules)
+6. [Notes](#notes)
+7. [Troubleshooting](#trouble)
+8. [Contributing](#con)
+9. [Support](#support)
+10. [License](#license)
   
   
   
