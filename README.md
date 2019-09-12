@@ -1,7 +1,8 @@
 # Table of Contents
-1. [Introduction](#Rock-Paper-Scissors)
+1. [Introduction](#intro)
 <br>
 <br>
+#intro
 # Rock-Paper-Scissors
 Welcome to my simple Rock, Paper, & Scissors game
 
