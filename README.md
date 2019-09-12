@@ -9,9 +9,9 @@
 8. [Contributing](#con)
 9. [Support](#support)
 10. [License](#license)  
-  
-    
-    
+<br>
+<br>  
+
 # Rock-Paper-Scissors <a name="intro"></a>  
 Welcome to my simple Rock, Paper, & Scissors game
 
