@@ -36,25 +36,25 @@ Extract the ZIP to a folder of your choice, and open "run.bat" to begin the game
 
 ## Usage <a name="usage"></a>  
 
-#### Step 1:
+### Step 1:
 
 Open the file "run.bat".  If a warning pops up, select "run" or "open anyway".
 
-#### Step 2:
+### Step 2:
 
 You will be prompted to enter your name, do so and press ENTER.
 ```java
 Enter player name: Troy //sets player name to Troy
 ```
 
-#### Step 3:
+### Step 3:
 
 Type your desired amount of rounds (in digits) and press ENTER. This can be any odd number greater than zero.
 ```java
 Enter player name: Troy //sets player name to Troy
 How many rounds would you like to play?: 1 //This will tell the game to play a best of 1 round
 ```
-#### Step  4:
+### Step  4:
 
 Perform your throw by typing in the sign’s corresponding digit and pressing ENTER.
 ```java
@@ -69,7 +69,7 @@ Troy wins!
 Troy: 1
 Computer: 0
 ```
-#### Step 5:
+### Step 5:
 
 Continue entering throws until the game ends.  
 <br>  
