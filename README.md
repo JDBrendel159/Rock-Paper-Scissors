@@ -87,7 +87,7 @@ The winner of the game is displayed once the game is finished.
 * You can exit the game at any time by pressing CTRL-C and then Y.
 * The game starts from Step 1 upon finishing a game.
 * You can only play against the computer, which throws out a random move for each turn.
-* This readme file is included in the download.  
+* A simplified version of this readme file is included in the download.  
 <br>  
 
 ## Troubleshooting <a name="trouble"></a>  
