@@ -1,7 +1,8 @@
 # Table of Contents
 1. [Introduction](#intro)
 2. [Features](#features)
-3. [Installation](#install)
+3. [Installation](#install)  
+
     3a. [Usage](#usage)
 4. [Rules](#rules)
 5. [Notes](#notes)
