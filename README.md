@@ -3,8 +3,8 @@
   
   
   
-
-# Rock-Paper-Scissors <a name="intro"></a>
+<a name="intro"></a>  
+# Rock-Paper-Scissors
 Welcome to my simple Rock, Paper, & Scissors game
 
 The repository page can be found <a href="https://github.com/JDBrendel159/Rock-Paper-Scissors">here.</a>
