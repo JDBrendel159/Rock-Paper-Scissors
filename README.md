@@ -4,6 +4,7 @@
   
   
 <a name="intro"></a>  
+
 # Rock-Paper-Scissors
 Welcome to my simple Rock, Paper, & Scissors game
 
