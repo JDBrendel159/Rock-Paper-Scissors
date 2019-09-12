@@ -10,15 +10,15 @@ The Github webpage can be found <a href="http://jdbrendel159.github.io/Rock-Pape
 * Play as many games as you want with any amount of rounds
 * A large variety of strategies to choose from
 * Ties do not count towards round total
-
-
+  
+  
 ## Installation
 
 The game can be downloaded as a ZIP using <a href="https://github.com/JDBrendel159/Rock-Paper-Scissors/archive/master.zip">this link.</a>
 
 Extract the ZIP to a folder of your choice, and open "run.bat" to begin the game.
-
-
+  
+  
 ## Usage
 
 #### Step 1:
@@ -57,7 +57,7 @@ Computer: 0
 #### Step 5:
 
 Continue entering throws until the game ends.
-
+  
 ## Game Rules
 Rock beats scissors, scissors beats paper, and paper beats rock.  Nothing special here.
 
@@ -65,26 +65,26 @@ The game cannot be played with an even amount of rounds.
 
 The game continues until one player wins a "best of" for the amount of rounds entered (excluding ties).
 The winner of the game is displayed once the game is finished.
-
-
+  
+  
 ## Notes
 * You can exit the game at any time by pressing CTRL-C and then Y.
 * The game starts from Step 1 upon finishing a game.
 * You can only play against the computer, which throws out a random move for each turn.
 * This readme file is included in the download.
-
-
+  
+  
 ## Troubleshooting
 Extracting the ZIP file requires either <a href="https://www.rarlab.com/download.htm">WinRAR</a> or <a href="https://www.7-zip.org">7Zip.</a>
 
 If the batch file fails to execute, you may need to update your java installation.  The most recent Java version can be found <a href="https://www.java.com/en/download">here.</a>
-
-
+  
+  
 ## Contributing
 Source code located [here](https://github.com/JDBrendel159/Rock-Paper-Scissors)
 
 Feel free to submit a pull request
-
+  
 ## Support
 If there are any issues, email one of us at:
 
@@ -93,7 +93,7 @@ brendeljd@appstate.edu (Joey Brendel)
 powellca1@appstate.edu (Charlie Powell)
 
 millertj6@appstate.edu (Troy Miller)
-
+  
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
 
