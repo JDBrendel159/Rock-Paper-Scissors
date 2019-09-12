@@ -1,11 +1,3 @@
-# Rules
-Rock beats scissors, scissors beats paper, and paper beats rock.  Nothing special here.
-
-The game cannot be played with an even amount of rounds.
-
-The game continues until one player wins a "best of" for the amount of rounds entered (excluding ties).
-The winner of the game is displayed once the game is finished.
-
 # Rock-Paper-Scissors
 Welcome to my simple Rock, Paper, & Scissors game
 
@@ -25,7 +17,7 @@ The game can be downloaded as a ZIP using <a href="https://github.com/JDBrendel1
 
 Extract the ZIP to a folder of your choice, and open "run.bat" to begin the game.
 
-## Usage/Playing
+## Usage
 
 #### Step 1:
 
@@ -63,6 +55,14 @@ Computer: 0
 #### Step 5:
 
 Continue entering throws until the game ends.
+
+## Game Rules
+Rock beats scissors, scissors beats paper, and paper beats rock.  Nothing special here.
+
+The game cannot be played with an even amount of rounds.
+
+The game continues until one player wins a "best of" for the amount of rounds entered (excluding ties).
+The winner of the game is displayed once the game is finished.
 
 ## NOTES
 * You can exit the game by pressing CTRL-C and then Y.
