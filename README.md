@@ -1,4 +1,8 @@
-# Rock-Paper-Scissors
+# Table of Contents
+1. [Introduction][1]
+<br>
+<br>
+[1]# Rock-Paper-Scissors
 Welcome to my simple Rock, Paper, & Scissors game
 
 The repository page can be found <a href="https://github.com/JDBrendel159/Rock-Paper-Scissors">here.</a>
