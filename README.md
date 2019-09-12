@@ -2,7 +2,7 @@
 1. [Introduction](#intro)
 2. [Features](#features)
 3. [Installation](#install)
-  3a. [Usage](#usage)
+<li>3a. [Usage](#usage)<li/>
 4. [Rules](#rules)
 5. [Notes](#notes)
 6. [Troubleshooting](#trouble)
