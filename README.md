@@ -29,7 +29,7 @@ The Github webpage can be found <a href="http://jdbrendel159.github.io/Rock-Pape
 
 ## Installation <a name="install"></a>  
 
-The game can be downloaded as a ZIP using <a href="https://github.com/JDBrendel159/Rock-Paper-Scissors/archive/master.zip">this link.</a>
+The game can be downloaded as a ZIP using <a href="https://github.com/JDBrendel159/Rock-Paper-Scissors/archive/release.zip">this link.</a>
 
 Extract the ZIP to a folder of your choice, and open "run.bat" to begin the game.  
 <br>  
