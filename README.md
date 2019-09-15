@@ -15,6 +15,8 @@
 # Rock-Paper-Scissors <a name="intro"></a>  
 Welcome to my simple Rock, Paper, & Scissors game
 
+<img src="https://www.wikihow.com/images/thumb/3/33/Play-Rock%2C-Paper%2C-Scissors-Step-5-Version-3.jpg/aid42597-v4-728px-Play-Rock%2C-Paper%2C-Scissors-Step-5-Version-3.jpg" alt="Basic game rules explanation">
+
 The repository page can be found <a href="https://github.com/JDBrendel159/Rock-Paper-Scissors">here.</a>
 
 The Github webpage can be found <a href="http://jdbrendel159.github.io/Rock-Paper-Scissors/">here.</a>  
