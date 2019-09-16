@@ -15,8 +15,6 @@
 # Rock-Paper-Scissors <a name="intro"></a>  
 Welcome to my simple Rock, Paper, & Scissors game
 
-<img src="https://www.wikihow.com/images/thumb/3/33/Play-Rock%2C-Paper%2C-Scissors-Step-5-Version-3.jpg/aid42597-v4-728px-Play-Rock%2C-Paper%2C-Scissors-Step-5-Version-3.jpg" alt="Basic game rules explanation">
-
 The repository page can be found <a href="https://github.com/JDBrendel159/Rock-Paper-Scissors">here.</a>
 
 The Github webpage can be found <a href="http://jdbrendel159.github.io/Rock-Paper-Scissors/">here.</a>  
@@ -77,6 +75,10 @@ Continue entering throws until the game ends.
 <br>  
 
 ## Game Rules <a name="rules"></a>  
+
+<img src="https://www.wikihow.com/images/thumb/3/33/Play-Rock%2C-Paper%2C-Scissors-Step-5-Version-3.jpg/aid42597-v4-728px-Play-Rock%2C-Paper%2C-Scissors-Step-5-Version-3.jpg" alt="Basic game rules explanation">
+
+
 Rock beats scissors, scissors beats paper, and paper beats rock.  Nothing special here.
 
 The game cannot be played with an even amount of rounds.
